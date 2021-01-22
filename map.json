@@ -126,11 +126,28 @@
          "draworder":"topdown",
          "id":14,
          "name":"DieserRaumIstNurF\u00fcrMich",
-         "objects":[],
+         "objects":[
+                {
+                 "height":225.5,
+                 "id":6,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"DieserRaumIstNurF\u00fcrMich",
+                         "type":"string",
+                         "value":""
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":375.5,
+                 "x":26.5,
+                 "y":271
+                }],
          "opacity":1,
          "properties":[
                 {
-                 "name":"jitsiRoom",
+                 "name":"DieserRaumIstNurF\u00fcrMich",
                  "type":"string",
                  "value":"DieserRaumIstNurF\u00fcrMich"
                 }],
@@ -158,7 +175,7 @@
          "y":0
         }],
  "nextlayerid":16,
- "nextobjectid":1,
+ "nextobjectid":7,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
