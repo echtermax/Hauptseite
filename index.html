@@ -1,21 +1,10 @@
 <html>
     <head>
-        <title>Costum Website</title>
-        <script>
-            window.onload = function() {
-                var path = window.location.pathname;
-                if (path.endsWith('index.html')) {
-                    path = path.substr(path, path.length - 'index.html'.length);
-                }
-                var url = 'https://play.workadventu.re/_/global/'+window.location.host+path+'map.json';
-                document.getElementById('mapLink').href = url;
-                document.getElementById('mapLink').innerText = url;
-            };
-        </script>
+        <title>Hauptseite Echtermax</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="World.ico">
     </head>
     <body>
-        This website contains a map for <a href="https://workadventu.re">Workadventu.re</a>.
-        <br/>
-        You can access this map at <a id="mapLink" href=""></a>
+        <h1 class="h1">ECHTERMAX</h1>
     </body>
 </html>
